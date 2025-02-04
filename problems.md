@@ -167,11 +167,47 @@ var pivotIndex = function(nums) {
 };
 ```
 
+## Move Zeroes
+#### O(n) space complexity O(n) time complexity
 
+### My First Approach
+```javascript
+var moveZeroes = function(nums) {
+    let zeroes = []
 
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] === 0) {
+            zeroes.push(0)
+            nums.splice(i, 1)
+            i--
+        }
+    }
+    nums.push(...zeroes)
+    console.log(nums)
+    return nums
+};
+```
 
+### Optimized Approach
+#### O(1) space complexity O(n) time complexity
+```javascript
+var moveZeroes = function(nums) {
+    let insertPos = 0; // Pointer for the next non-zero position
 
+    // Step 1: Move all non-zero elements to the front
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] !== 0) {
+            nums[insertPos] = nums[i];
+            insertPos++;
+        }
+    }
 
+    // Step 2: Fill the remaining positions with zeros
+    for (let i = insertPos; i < nums.length; i++) {
+        nums[i] = 0;
+    }
+};
+```
 
 
 
