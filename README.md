@@ -10,6 +10,9 @@
 
 [Linked List Cycle](LinkedListCycle.md)
 
+[Delete Middle Node of a Linked List](DeleteMiddleNodeOfaLinkedList.md)
+
+[Remove Duplicates from Sorted List](RemoveDuplicatesFromSortedList.md)
 
 
 ## Sieve of Eratosthenes
