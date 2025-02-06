@@ -2,7 +2,11 @@
 
 ## Sieve of Eratosthenes
 
+<span style="color: red;">Priority: High</span>
+
 [Sieve of Eratosthenes](SieveOfEratosthenes.md)
+
+
 
 - Time Complexity: O(n log log n)
 - Space Complexity: O(n)
@@ -31,6 +35,12 @@ function sieveOfEratosthenes(n) {
   return primes;
 }   
 ``` 
+## Tuple Same Product
+
+<span style="color: red;">Priority: High</span>
+
+[Tuple Same Product](TupleSameProduct.md)
+
 
 ## Sliding Window
 
@@ -55,4 +65,3 @@ function sieveOfEratosthenes(n) {
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 - Used to find the sum of a subarray of a given size
-    
