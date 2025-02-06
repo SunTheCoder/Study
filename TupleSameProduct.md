@@ -6,6 +6,12 @@ Given a list of numbers, find the number of tuples that have the same product.
 - Space Complexity: O(n)
 - Used to find the number of tuples that have the same product
 
+## Step-by-Step Breakdown
+
+- Generate all unique pairs
+- Count valid tuples
+- Return the count
+
 ```javascript
 var tupleSameProduct = function(nums) {
     const frequency = new Map();

@@ -1,12 +1,22 @@
 # Study
 
+- <span style="color: red;">Resizing Arrays is expensive</span>
+
+## Linked List
+
+[Linked List](LinkedList.md)
+
+[Middle of the Linked List](MiddleOfTheLinkedList.md)
+
+[Linked List Cycle](LinkedListCycle.md)
+
+
+
 ## Sieve of Eratosthenes
 
 <span style="color: red;">Priority: High</span>
 
 [Sieve of Eratosthenes](SieveOfEratosthenes.md)
-
-
 
 - Time Complexity: O(n log log n)
 - Space Complexity: O(n)
@@ -44,24 +54,38 @@ function sieveOfEratosthenes(n) {
 
 ## Sliding Window
 
-[Sliding Window](SlidingWindow.md)
+### Distint Numbers in Each Subarray
+
+<span style="color: red;">Priority: High</span>
+
+[Distint Numbers in Each Subarray](DistintNumbersInEachSubarray.md)
 
 - Time Complexity: O(n)
-- Space Complexity: O(1)
-- Used to find the maximum or minimum sum of a subarray of a given size
+- Space Complexity: O(n)
+- Used to find the number of distinct numbers in each subarray
 
 ## Two Pointers
 
 [Two Pointers](TwoPointers.md)
 
-- Time Complexity: O(n)
-- Space Complexity: O(1)
-- Used to find the maximum or minimum sum of a subarray of a given size
+
 
 ## Prefix Sum
 
 [Prefix Sum](PrefixSum.md)
 
+## Stack
+
+### isValid
+
+<span style="color: red;">Priority: High</span>
+
+[IsValid](IsValid.md)
+
 - Time Complexity: O(n)
 - Space Complexity: O(n)
-- Used to find the sum of a subarray of a given size
+- Used to check if a string is valid
+
+
+🔍 Why Does slowPrev.next = slow.next Modify head?
+We need to remember that JavaScript objects (including linked list nodes) are reference types. That means when we change slowPrev.next, we are modifying the actual linked list in memory.
