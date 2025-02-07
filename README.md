@@ -65,7 +65,7 @@ function sieveOfEratosthenes(n) {
 
 <span style="color: red;">Priority: High</span>
 
-[Distint Numbers in Each Subarray](DistintNumbersInEachSubarray.md)
+[Distint Numbers in Each Subarray](DistintNumbersInEachSubArray.md)
 
 - Time Complexity: O(n)
 - Space Complexity: O(n)
@@ -79,7 +79,7 @@ function sieveOfEratosthenes(n) {
 
 ## Prefix Sum
 
-[Prefix Sum](PrefixSum.md)
+
 
 ## Stack
 
