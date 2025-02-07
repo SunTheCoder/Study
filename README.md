@@ -57,6 +57,10 @@ function sieveOfEratosthenes(n) {
 
 ## Sliding Window
 
+<span style="color: red;">Priority: High</span>
+
+[Find Index of First Occurence in a String](FindIndexOfFirstOccurenceInAString.md)
+
 ### Distint Numbers in Each Subarray
 
 <span style="color: red;">Priority: High</span>
@@ -89,6 +93,12 @@ function sieveOfEratosthenes(n) {
 - Space Complexity: O(n)
 - Used to check if a string is valid
 
+## Hash Table
 
-🔍 Why Does slowPrev.next = slow.next Modify head?
-We need to remember that JavaScript objects (including linked list nodes) are reference types. That means when we change slowPrev.next, we are modifying the actual linked list in memory.
+<span style="color: red;">Priority: High</span>
+
+[Sentence Similarity](SentenceSimilarity.md)
+
+## Stacks
+
+[Stacks](Stacks.md)
