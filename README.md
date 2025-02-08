@@ -80,30 +80,29 @@ function sieveOfEratosthenes(n) {
 ## Prefix Sum
 
 
-
-## Stack
-
-### isValid
-
-<span style="color: red;">Priority: High</span>
-
-[IsValid](IsValid.md)
-
-- Time Complexity: O(n)
-- Space Complexity: O(n)
-- Used to check if a string is valid
-
 ## Hash Table
 
 <span style="color: red;">Priority: High</span>
 
 [Sentence Similarity](SentenceSimilarity.md)
 
+[Next Greater Element](NextGreaterElement.md)
+
 ## Stacks
+
+<span style="color: red;">Priority: High</span>
 
 [Stacks](Stacks.md)
 
+[Simplify Path](SimplifyPath.md)
+
+[IsValid](IsValid.md)
+
 [Reverse Prefix of Word](ReversePrefixOfWord.md)
+
+[Next Greater Element](NextGreaterElement.md)
+
+[Moving Average from Data Stream](MovingAverageFromDataStream.md)
 
 ## Queue
 
